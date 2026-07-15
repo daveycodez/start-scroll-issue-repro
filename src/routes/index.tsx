@@ -522,7 +522,6 @@ function CardGridPage() {
             <img
               src={src}
               alt={`MTG Card ${i + 1}`}
-              loading="lazy"
               onLoad={() => setLoaded((l) => l + 1)}
               className="block w-full rounded-[10px] shadow-[0_2px_8px_rgba(0,0,0,.3)]"
             />
