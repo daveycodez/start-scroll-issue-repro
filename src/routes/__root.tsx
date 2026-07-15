@@ -5,7 +5,7 @@ import {
   Outlet,
   Scripts
 } from "@tanstack/react-router"
-import { TanstackDevtools } from "@tanstack/react-devtools"
+import { TanStackDevtools } from "@tanstack/react-devtools"
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools"
 
 import styles from "../styles.css?url"
@@ -50,7 +50,7 @@ function RootComponent() {
         </div>
         <hr />
         <Outlet />
-        <TanstackDevtools
+        <TanStackDevtools
           config={{ position: "bottom-left" }}
           plugins={[
             {
